@@ -1,0 +1,29 @@
+  508  mkdir checkpoint-LuisCerda
+  509  cd checkpoint-LuisCerda
+  510  echo "# checkpoint-2023-08-16-LuisCerda" >> README.md
+  511  git init
+  512  git add README.md
+  513  git commit -m "first commit"
+  514  git branch -M main
+  515  git remote add origin https://github.com/Luis-F-Cerda-P/checkpoint-2023-08-16-LuisCerda.git
+  516  touch main.js index.html
+  517  git add .
+  518  git commit -m "commit 01 de LuisCerda"
+  519  git push -u origin main
+  520  git branch feature
+  521  git checkout feature
+  522  mkdir Hardware Software SeguridadInformatica
+  523  ls
+  524  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+  525  git add .
+  526  git commit -m "commit 02 de LuisCerda"
+  527  git push origin feature
+  528  git checkout main
+  529  mv main.js resumenHardware.txt
+  530  ls
+  531  mv index.html resumenSoftware.txt
+  532  ls
+  533  cat resumenSoftware.txt
+  534  nano resumenSoftware.txt
+  535  nano resumenHardware.txt
+  536  touch comandos.txt
